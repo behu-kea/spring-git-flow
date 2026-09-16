@@ -1,0 +1,7 @@
+<form th:action="@{/create-student}"
+      th:object="${student}"
+      method="post">
+
+    <input alt="name" th:field="*{name}">
+    <button type="submit">Save</button>
+</form>
