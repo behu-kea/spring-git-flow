@@ -40,7 +40,7 @@ public class HtmlController {
             @ModelAttribute("student") Student student) {
         System.out.println(student.getName());
         //repository.save(student);
-        return "redirect:/user-created";
+        return "redirect:/user-created?hej";
     }
 
     @GetMapping("/user-created")
