@@ -45,7 +45,7 @@ public class HtmlController {
 
     @GetMapping("/user-created")
     public String userCreated() {
-        return "user-created";
+        return "user-created ";
     }
 
     @GetMapping("/create-student-binding")
