@@ -24,7 +24,7 @@ public class HtmlController {
         ArrayList<String> foods = new ArrayList<>();
         foods.add("beef");
         foods.add("orange");
-        foods.add("apple");
+        foods.add("orange");
         model.addAttribute("foods", foods);
         model.addAttribute("category", category);
 
